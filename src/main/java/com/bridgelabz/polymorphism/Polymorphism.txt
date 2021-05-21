@@ -1,0 +1,26 @@
+The word polymorphism means having many forms. In simple words, we can define polymorphism as the ability of a message
+to be displayed in more than one form.
+
+Real life example of polymorphism: A person at the same time can have different characteristic. Like a man at the same
+time is a father, a husband, an employee. So the same person posses different behavior in different situations. This is
+called polymorphism.
+
+Polymorphism is considered one of the important features of Object-Oriented Programming. Polymorphism allows us to perform
+a single action in different ways. In other words, polymorphism allows you to define one interface and have multiple
+implementations. The word “poly” means many and “morphs” means forms, So it means many forms.
+
+In Java polymorphism is mainly divided into two types:
+
+Compile time Polymorphism
+Runtime Polymorphism
+1. Compile-time polymorphism: It is also known as static polymorphism. This type of polymorphism is achieved by function
+overloading or operator overloading. But Java doesn’t support the Operator Overloading.
+
+Method Overloading: When there are multiple functions with same name but different parameters then these functions are
+said to be overloaded. Functions can be overloaded by change in number of arguments or/and change in type of arguments.
+
+2. Runtime polymorphism: It is also known as Dynamic Method Dispatch. It is a process in which a function call to the
+overridden method is resolved at Runtime. This type of polymorphism is achieved by Method Overriding.
+
+Method overriding, on the other hand, occurs when a derived class has a definition for one of the member functions of
+the base class. That base function is said to be overridden.
