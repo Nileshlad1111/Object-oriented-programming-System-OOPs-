@@ -1,6 +1,6 @@
 package com.bridgelabz.polymorphism.MethodOverloading;
 
-public class MultiplyFun1 {
+class MultiplyFun11 {
 // Method with 2 parameter
     static int Multiply(int a, int b)
     {
@@ -14,9 +14,9 @@ public class MultiplyFun1 {
     }
 }
 
-class Main {
+class MethodOverloading {
     public static void main(String[] args) {
-        System.out.println(MultiplyFun1.Multiply(2, 4));
+        System.out.println(MultiplyFun11.Multiply(2, 4));
 
-        System.out.println(MultiplyFun1.Multiply(2, 7, 3));
+        System.out.println(MultiplyFun11.Multiply(2, 7, 3));
     }  }
